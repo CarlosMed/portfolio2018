@@ -1,0 +1,120 @@
+.About {
+  &-title {
+    position: relative;
+    margin-bottom: 50px;
+    background: $black;
+    height: 400px;
+    h1 {
+      color: $dark-grey;
+      font-family: $Roboto;
+      font-weight: bold;
+      font-size: 4.5rem;
+    }
+  }
+
+  // Creating frames for the image
+  &-img-container {
+    position: absolute;
+    display: inline-block;
+    top: 130px;
+    opacity: 0.6;
+    .img-frame {
+      display: inline-block;
+      img {
+        width: 200px;
+        height: auto;
+        z-index: 1;
+      }
+
+      .frames {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        width: 199.5px;
+        height: 267px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 8px;
+        background: rgba($black, 1);
+        mix-blend-mode: multiply;
+
+        div {
+          height: 60px;
+          background: white;
+
+          &:nth-of-type(7) {
+            grid-column: 1/4;
+          }
+          &:nth-of-type(8) {
+            grid-column: 4/7;
+          }
+          &:nth-of-type(9) {
+            grid-column: span 6;
+          }
+          &:nth-of-type(10) {
+            grid-column: span 2;
+          }
+          &:nth-of-type(11) {
+            grid-column: span 2;
+          }
+          &:nth-of-type(12) {
+            grid-column: span 2;
+          }
+        }
+      }
+    }
+
+    span {
+      writing-mode: vertical-lr;
+      transform: rotate(180deg);
+      color: rgba(#acacac, 0.2);
+    }
+    .special {
+      color: rgba($salmon, 0.6);
+    }
+  }
+
+  &-body {
+    margin-left: 15%;
+    h5 {
+      margin: 10px 0 0 0;
+      font-family: $Open;
+      color: rgba(#c4c4c4, 0.8);
+      line-height: 25px;
+      font-size: 1.3rem;
+      line-height: 1.5em;
+    }
+    p {
+      color: rgba($grey, 0.5);
+      font-family: $Open;
+      font-weight: 300;
+      line-height: 1.45em;
+      letter-spacing: 0.6px;
+    }
+  }
+
+  &-footer {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 60px;
+
+    a {
+      color: $grey;
+      font-family: $Roboto;
+      text-decoration: none;
+      font-weight: 300;
+      font-size: 0.9rem;
+    }
+  }
+
+  &-seperator {
+    display: inline-block;
+    width: 20px;
+    height: 1px;
+    margin: 3px 5px;
+    background: $salmon;
+  }
+}

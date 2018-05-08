@@ -1,0 +1,92 @@
+.Work {
+  &-title {
+    position: relative;
+    margin-bottom: 50px;
+    background: $black;
+
+    h1 {
+      color: $dark-grey;
+      font-family: $Roboto;
+      font-weight: bold;
+      font-size: 4.5rem;
+    }
+  }
+
+  &-outer-box {
+    width: 200px;
+
+    h1 {
+      font-family: $Open;
+      color: $salmon;
+      font-size: 1.1rem;
+      align-self: flex-start;
+      margin: 5px 0;
+      letter-spacing: 1.1px;
+    }
+
+    p {
+      color: $dark-grey;
+      font-family: $Roboto;
+      font-size: 0.8rem;
+      align-self: flex-end;
+      margin: 5px 0;
+    }
+  }
+
+  &-button {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    font-family: $Roboto;
+    button {
+      color: $grey;
+      border: 4px solid $salmon;
+      background: none;
+      padding: 5px 10px;
+    }
+  }
+
+  &-inner-box {
+    border: 6px solid $grey;
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  &-switches {
+    height: 40px;
+    border: 1px solid $salmon;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    margin: 10px;
+    .fas {
+      color: $grey;
+      margin: 0 25px;
+      cursor: pointer;
+    }
+    &:disabled {
+      opacity: 0.2;
+    }
+  }
+
+  &-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    // height: 100vh;
+    // position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

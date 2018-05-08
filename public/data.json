@@ -1,0 +1,20 @@
+[
+  {
+    "img":
+      "https://github.com/CarlosMed/portfolio/blob/gh-pages/img/the-trailer-store.png?raw=true",
+    "title": "The Trailer Store",
+    "desc":
+      "For the Trailer Store I was approcehed by one of my clients to help build the web presence for their store. It included logo Design, Web Design, and Developent using modern FrontEnd stacks which included React, Contentful CMS for content managing, SCSS, and setting up Deployment as well as training the customer on managing the content.",
+    "tools": ["React", "Contentful", "Semantic HTML", "CSS3"],
+    "out_link": "http://thetrailerstore.online/"
+  },
+  {
+    "img":
+      "https://github.com/CarlosMed/portfolio/blob/gh-pages/img/saf-expo-landing.png?raw=true",
+    "title": "SAF Tech Expo Landing Page",
+    "desc":
+      "This page was created over a weekend for an upcoming expo event while employed in SAF Technologies. The technologies I used for this project is HTML, Bootstrap, some custom CSS, and Javascript for animations.",
+    "tools": ["Bootstrap 4", "HTML5", "CSS3"],
+    "out-link": "http://saftechnologies.com/security-expo-2017/"
+  }
+]

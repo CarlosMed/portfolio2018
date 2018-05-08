@@ -1,0 +1,24 @@
+<svg viewBox="0 0 51 43" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Canvas" transform="translate(-119 859)">
+    <g id="Logo">
+      <use xlink:href="#path0_stroke" transform="translate(119.883 -823)" fill="#DDD" id="LineB"/>
+      <use xlink:href="#path1_stroke" transform="translate(119.883 -831)" fill="#DDD" id="LineM"/>
+      <use xlink:href="#path2_stroke" transform="translate(119.883 -839)" fill="#DDD" id="LineT"/>
+      <g id="Triangle">
+        <mask id="mask0_outline_ins">
+          <use xlink:href="#path3_fill" fill="#fff" transform="translate(117 -859)"/>
+        </mask>
+        <g mask="url(#mask0_outline_ins)">
+          <use xlink:href="#path4_stroke_2x" transform="translate(117 -859)" fill="#EB6263"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <defs>
+    <path id="path0_stroke" d="M0 0h43v-3H0v3z"/>
+    <path id="path1_stroke" d="M0 0h39v-3H0v3z"/>
+    <path id="path2_stroke" d="M0 0h34v-3H0v3z"/>
+    <path id="path3_fill" d="M28.184 0l24.408 42.664H3.776L28.184 0z"/>
+    <path id="path4_stroke_2x" d="M28.184 0l2.604-1.49-2.604-4.551L25.58-1.49 28.184 0zm24.408 42.664v3h5.172l-2.568-4.49-2.604 1.49zm-48.816 0l-2.604-1.49-2.569 4.49h5.173v-3zM25.58 1.49l24.408 42.664 5.208-2.98L30.788-1.49 25.58 1.49zm27.012 38.174H3.776v6h48.816v-6zM6.38 44.154L30.788 1.49 25.58-1.49 1.172 41.174l5.208 2.98z"/>
+  </defs>
+</svg>
