@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BoxComponent } from './BoxComponent';
+import { BoxComponent } from './HomeBox';
 
 class Work extends Component {
   constructor(props) {

@@ -1,7 +1,8 @@
 import React from 'react';
 
-export const BoxComponent = (props) => {
+export const HomeBox = (props) => {
   const {title, img, tools } = props.data;
+
   return (
   <div className="center Work-outer-box">
     <h1>{title}</h1>
